@@ -2,3 +2,4 @@
 //= require plugins
 //= require helper
 //= require main
+//= require Github
