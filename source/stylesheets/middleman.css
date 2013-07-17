@@ -30,12 +30,9 @@ h1 {
     color: rgba(0, 0, 0, 0.3); }
     .doc a:hover {
       color: #666; }
-  .addons {
-    text-align: left;
-    list-style: none;
-    li.i {
-      margin-right: 7px;
-    }
+  .features {
+    font-size: 1.5em;
+    text-transform: uppercase;    
   }
 
 .welcome {
