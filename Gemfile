@@ -16,6 +16,10 @@ gem "susy"
 # Bootstrap
 gem "bootstrap-sass"
 
+group :development, :test do
+  gem 'jasmine'
+end
+
 # For faster file watcher updates:
 # gem "wdm", "~> 0.1.0") # Windows
 
