@@ -17,8 +17,8 @@ It's as close to the default Middleman template as I could keep it, for familiar
 
 To run the server:
 
-```rake jasmine
+    rake jasmine
 
 To run the automated CI task with Selenium:
 
-```rake jasmine:ci
+    rake jasmine:ci
