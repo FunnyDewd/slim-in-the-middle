@@ -14,6 +14,7 @@ It's as close to the default Middleman template as I could keep it, for familiar
 
 
 ### Jasmine
+I've included Jasmine spec runner initialization.
 
 To run the server:
 
