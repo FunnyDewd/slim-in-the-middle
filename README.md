@@ -11,11 +11,11 @@ A Middleman template for prototyping web applications with [Slim](www.slim-lang.
 
 ## Create a new project
 
-	middleman init <new-project-name> --temlplate=mobile-slim
+	middleman init <new-project-name> --template=mobile-slim
 
 ### Jasmine
 
-There's a `src` folder inside the default Jasmine spec folder for coffeescript files. To run the coffeescript compiler and the Jasmine rake tasks use:
+If you prefer writing your specs in coffeescript, there's a `src` folder inside the default Jasmine spec folder. To run the coffeescript compiler and the Jasmine rake tasks use:
 
     foreman start
 
