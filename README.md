@@ -14,6 +14,8 @@ It's as close to the default Middleman template with the following add-ons:
 
 ## Installation
 
+    $ git clone https://github.com/melindavoo/slim-in-the-middle.git ~/.middleman/mobile-slim
+    $ bundle install
 
 ### Jasmine
 I've included Jasmine spec runner initialization.

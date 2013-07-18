@@ -1,6 +1,5 @@
 Github = ->
 
-
 Github::user = (user) ->
     @url = "https://api.github.com/users/" + user + "?callback=?"
     
@@ -10,3 +9,5 @@ Github::user = (user) ->
     return window.data
 
 window.Github = Github
+
+# this is 

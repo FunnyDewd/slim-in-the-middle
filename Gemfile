@@ -2,6 +2,7 @@
 # the following line to use "https"
 source 'http://rubygems.org'
 
+gem "rake"
 gem "middleman", "~>3.1.3"
 
 # Live-reloading plugin
@@ -16,9 +17,15 @@ gem "susy"
 # Bootstrap
 gem "bootstrap-sass"
 
-group :development, :test do
-  gem 'jasmine'
-end
+# Foreman
+gem "foreman"
+
+# Guard Watcher
+gem "guard"
+gem "guard-coffeescript"
+
+# Jasmine Spec Runner
+gem 'jasmine'
 
 # For faster file watcher updates:
 # gem "wdm", "~> 0.1.0") # Windows
