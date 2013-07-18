@@ -19,8 +19,11 @@ It's as close to the default Middleman template with the following add-ons:
 
 ### Jasmine
 I've included Jasmine spec runner initialization.
+To run using coffeescript:
 
-To run the server:
+    foreman start
+
+Plain JS, run:
 
     rake jasmine
 
