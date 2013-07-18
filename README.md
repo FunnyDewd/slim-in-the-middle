@@ -19,7 +19,7 @@ It's as close to the default Middleman template with the following add-ons:
 
 ### Jasmine
 I've included Jasmine spec runner initialization.
-To run using coffeescript:
+If you write your specs in coffeescript, they are watched/compiled with guard-coffeescript into /public, as the spec runner starts. Start these 2 processes with:
 
     foreman start
 
