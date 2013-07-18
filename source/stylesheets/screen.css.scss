@@ -1,10 +1,10 @@
 // ---------------------------------------------------------------------------
 // Imports
 
-@import "base";
-
-// Twitter Bootstrap compliments bootstrap-sass gem
-@import "bootstrap";
+@import "normalize"; 		// Reset
+@import "base"; 			// Grid
+@import "main"; 			// Contains HTML5 Boilerplate CSS
+@import "bootstrap";		// Twitter Bootstrap compliments bootstrap-sass gem
 
 /* -------------------------------------------------------------------------*/
 /* Layout */

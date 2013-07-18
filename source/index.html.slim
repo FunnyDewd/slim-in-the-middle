@@ -3,15 +3,20 @@ title: A Middleman Template featuring Slim, Susy, Solarized color palette, Twitt
 ---
 
 div.container
-    div.welcome
+
+    header
         h1 Middleman is Watching
-        p.doc = link_to "Read Online Documentation", "http://middlemanapp.com/"
-        h2.features
+        p = link_to "Read Online Documentation", "http://middlemanapp.com/"
+    
+    aside
+        h2
             i.icon-star 
             |  Mods  
             i.icon-star
-        p.doc = link_to "Slim Templates", "http://www.slim-lang.com/"
-        p.doc = link_to "Susy Grid", "http://susy.oddbird.net/"
-        p.doc = link_to "The Solarized Color Palette", "http://ethanschoonover.com/solarized"
-        p.doc = link_to "H5BP Mobile Boilerplate", "http://html5boilerplate.com/mobile/"
-        p.doc = link_to "Twitter Bootstrap", "http://twitter.github.io/bootstrap/"
+
+        ul
+            li = link_to "Slim Templates", "http://www.slim-lang.com/"
+            li = link_to "Susy Responsive Grids", "http://susy.oddbird.net/"
+            li = link_to "Solarized Colors", "http://ethanschoonover.com/solarized"
+            li = link_to "H5BP Mobile Boilerplate", "http://html5boilerplate.com/mobile/"
+            li = link_to "Twitter Bootstrap", "http://twitter.github.io/bootstrap/"
