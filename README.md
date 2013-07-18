@@ -1,6 +1,6 @@
 # Diet Middleman
 
-A Middleman template for prototyping web applications with [Slim](www.slim-lang.com), [Susy](susy.oddbird.net), [Jasmine spec runner](http://github.com/pivotal/jasmine) via [Jasmine gem](https://github.com/pivotal/jasmine-gem)
+A Middleman template for prototyping mobile-first web applications with [Slim](www.slim-lang.com), [Susy](susy.oddbird.net), [Jasmine spec runner](http://github.com/pivotal/jasmine) via [Jasmine gem](https://github.com/pivotal/jasmine-gem)
 , the [Solarized colors](http://ethanschoonover.com/solarized), [H5BP Mobile Boilerplate](http://html5boilerplate.com/mobile/)
 , and [Twitter Bootstrap](http://twitter.github.io/bootstrap/). Ready to rock and roll!
 
