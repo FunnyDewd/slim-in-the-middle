@@ -1,16 +1,8 @@
 # A Middleman Template
 
-A Middleman template for prototyping web applications. 
-
-## What's inside?
-It's as close to the default Middleman template with the following add-ons:
-
-* [Slim Templates](www.slim-lang.com)
-* [Susy Grid](susy.oddbird.net)
-* [Jasmine Spec Runner](http://github.com/pivotal/jasmine) via [Jasmine Gem](https://github.com/pivotal/jasmine-gem)
-* [Solarized Color Palette](http://ethanschoonover.com/solarized)
-* [H5BP Mobile Boilerplate](http://html5boilerplate.com/mobile/)
-* [Twitter Bootstrap](http://twitter.github.io/bootstrap/)
+A Middleman template for prototyping web applications with [Slim](www.slim-lang.com), [Susy](susy.oddbird.net), [Jasmine spec runner](http://github.com/pivotal/jasmine) via [Jasmine gem](https://github.com/pivotal/jasmine-gem)
+, the [Solarized color palette](http://ethanschoonover.com/solarized), [H5BP Mobile Boilerplate](http://html5boilerplate.com/mobile/)
+, and [Twitter Bootstrap](http://twitter.github.io/bootstrap/). Ready to rock and roll!
 
 ## Installation
 
@@ -18,12 +10,12 @@ It's as close to the default Middleman template with the following add-ons:
     $ bundle install
 
 ### Jasmine
-I've included Jasmine spec runner initialization.
-If you write your specs in coffeescript, they are watched/compiled with guard-coffeescript into /public, as the spec runner starts. Start these 2 processes with:
+
+There's a `src` folder inside the default Jasmine spec folder for coffeescript files. To run the coffeescript compiler and the Jasmine rake tasks use:
 
     foreman start
 
-Plain JS, run:
+If you prefer the default, plain JS runner, use the Jasmine rake task:
 
     rake jasmine
 
